@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeria | Guggenheim</title>
+  <link rel="shortcut icon" type="image/jpg" href="IMG/svg/icono_web.svg">
+  <link rel="stylesheet" href="estilos.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <style>
+    body {background-color: #e2dfdf;}
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg py-2 z-3 position-absolute bg-dark" data-bs-theme="dark" style="width: 100%">
+      <div class="container-fluid container">
+        <a class="navbar-brand" href="index.html"><img src="IMG/svg/Guggenheim_Museum_Logo.svg" width="200 px" alt="Logo Guggenheim"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav ms-auto">
+            <li><a class="nav-link" href="historia.html">Historia</a></li>
+            <li><a class="nav-link bolden" href="coleccion.html">Coleccion</a></li>
+            <li><a class="nav-link" href="contacto.html">Contactos</a></li>
+            <li><a class="nav-link" href="merch.html">Merch</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="py-5 ms-auto">
+    <div class="pt-4 mt-4 container"><h1 class="bolden">GALERIAS</h1></div>
+    <div class="pt-4 ps-5 container"><h2 class="bolden">ARTE POP</h2></div>
+    <div class="bg-dark border border-dark border-5">
+      <div id="carouselPop" class="carousel slide container p-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselPop" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselPop" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselPop" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IMG/galeria/warhol-1.jpg" class="d-block w-100" alt="Latas Campbell de Warhol">
+            <div class="carousel-caption d-none d-md-block bg-dark">
+              <h3 class="bolden">Andy Warhol</h3>
+              <p>Campbell's Canned Soup</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/galeria/Lich-1.jpg" class="d-block w-100" alt="Crying Girl de Lichenstein">
+            <div class="carousel-caption d-none d-md-block bg-dark">
+              <h3 class="bolden">Rob Lichenstein</h3>
+              <p>Crying Girl</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/galeria/Haring-1.jpg" class="d-block w-100" alt="Retrospect de Haring">
+            <div class="carousel-caption d-none d-md-block bg-dark">
+              <h3 class="bolden">Keith Haring</h3>
+              <p>Retrospect</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPop" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselPop" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="pt-4 ps-5 container"><h2 class="bolden">ARTE MODERNO</h2></div>
+    <div class="bg-dark border border-dark border-5">
+      <div id="carouselModern" class="carousel slide container p-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselModern" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselModern" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselModern" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IMG/galeria/Kandinsky-1.jpg" class="d-block w-100" alt="Octava composicion de Kandinsky">
+            <div class="carousel-caption d-none d-md-block bg-dark">
+              <h3 class="bolden">Vasily Kandinsky</h3>
+              <p>Composition 8</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/galeria/Severini-1.jpg" class="d-block w-100" alt="Tren a travez del puente de Severini">
+            <div class="carousel-caption d-none d-md-block bg-dark">
+              <h3 class="bolden">Gino Severini</h3>
+              <p>Train de la Croix Rouge traversant un village</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/galeria/Balla-1.jpg" class="d-block w-100" alt="Velocidad y Ruido de Balla">
+            <div class="carousel-caption d-none d-md-block bg-dark">
+              <h3 class="bolden">Giacomo Balla</h3>
+              <p>Velocità astratta + rumore</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselModern" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselModern" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="pt-4 mt-4 container" id="muestras"><h1 class="bolden">MUESTRAS</h1></div>
+  <div class="container py-3">
+    <article class="row pb-5 d-flex justify-content-xl-start justify-content-md-center">
+        <div class="col-md-8 col-xl-12 mb-xl-0 mb-md-3">
+            <div class="card text-bg-dark rounded-0 p-2">
+                <div class="row g-0 rounded-0 align-items-center">
+                    <div class="col-md-4 col-sm-12 ps-lg-2">
+                        <img src="IMG/muestras/Going_dark.jpg" class="img-fluid rounded-0 col-sm-12" alt="Muestra Going Dark" />
+                    </div>
+                    <div class="col-md-8 py-1">
+                        <div class="card-body">
+                            <h2 class="card-title">Going Dark</h2>
+                            <strong class="">La figura contemporánea al borde de la visibilidad.</strong>
+                            <h5 class="card-text pt-3">Horarios: 12:30 a.m. a 20:30 p.m.</h5>
+                            <p class="justificar">
+                                Esta muestra presenta obras de arte que presentan figuras parcialmente oscurecidas u
+                                ocultas,
+                                colocándolas así en el “borde de la visibilidad”. En este contexto artístico, la
+                                frase común
+                                oscurecerse se entiende como una táctica mediante la cual los artistas ocultan
+                                visualmente el
+                                cuerpo para explorar una tensión clave en la sociedad contemporánea: el deseo de ser
+                                visto y el
+                                deseo de ocultarse de la vista.
+                            </p>
+                            <p class="justificar">
+                                Los artistas de la muestra articulan el oscurecimiento a través de estrategias
+                                formales que pueden incluir métodos de oscurecimiento literal como el sombreado;
+                                rotar el
+                                cuerpo; nuevos materiales y métodos de impresión; y herramientas de postproducción
+                                que difuminan
+                                o iluminan. Algunas de las obras más recientes que se exhibirán se basan en
+                                tecnología digital,
+                                como la pantalla croma verde (o azul). Estas obras se mueven con fluidez entre la
+                                figuración y
+                                la abstracción, y muchos de los artistas manipulan inventivamente el color y la luz
+                                para
+                                oscurecer también la percepción óptica, desafiando la biología misma de la visión.
+                            </p>
+                            <p class="justificar">
+                                Going Dark, que ocupa la icónica rotonda del Museo Guggenheim, presenta más de
+                                100 obras de un grupo de 28 artistas, la mayoría de los cuales son negros y más de
+                                la mitad son
+                                mujeres.
+                            </p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article class="row pb-5 py-5 d-flex justify-content-xl-start justify-content-md-center">
+        <div class="col-md-8 col-xl-12 mb-xl-3">
+            <div class="card text-bg-dark rounded-0">
+                <div class="row g-0 rounded-0 align-items-center">
+
+                    <div class="col-md-8 py-1">
+                        <div class="card-body text-end">
+                            <h2 class="card-title">Only the Young</h2>
+                            <strong>Arte exprimental en Korea, 1960s a 1970s.</strong>
+                            <p class="card-text">
+                            <h5 class="card-text">Horarios: 12:30 a.m. a 20:30 p.m.</h5>
+                            <p class="justificar">
+                                Examina el cuerpo de
+                                producción artística innovador y que desafía los géneros de una era de notable
+                                transformación en
+                                Corea del Sur. Creadas por jóvenes artistas que alcanzaron la mayoría de edad en las
+                                décadas
+                                inmediatamente posteriores a la Guerra de Corea, las obras de arte reflejan y
+                                responden a las
+                                cambiantes condiciones socioeconómicas y materiales que fueron moldeadas por un
+                                tumultuoso
+                                panorama político en el país y un mundo globalizado más allá. Esta es la primera
+                                exposición de
+                                un museo norteamericano dedicada al arte experimental coreano (silheom misul) y sus
+                                artistas,
+                                cuyo enfoque radical de los materiales y procesos dio como resultado algunas de las
+                                prácticas de
+                                vanguardia más significativas del siglo XX.
+                            </p>
+                            <p class="justificar">
+                                Esta exposición, que abarca tres galerías de la torre y presenta aproximadamente
+                                ochenta obras, ofrece una oportunidad sin precedentes para experimentar la
+                                creatividad y la
+                                amplitud de esta generación de artistas coreanos. Tanto como individuos como en
+                                colectivos,
+                                los artistas experimentales rompieron
+                                definitivamente con sus predecesores, redefiniendo los límites de la pintura y la
+                                escultura
+                                tradicionales y al mismo tiempo adoptando enfoques innovadores en la
+                                creación de arte. Las obras expuestas incluyen
+                                performance, instalación, fotografía y video, ilustran cómo los artistas
+                                experimentales se
+                                involucraron con temas apremiantes como la subjetividad en una era de rápida
+                                modernización y
+                                globalización, y la voluntad individual al margen de un estado cada vez más
+                                autoritario.
+                            </p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-3">
+                        <img src="IMG/muestras/Young.jpg" class="img-fluid rounded-0 d-block pb-4" alt="Muestra Only the Young" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article class="row pb-5 d-flex justify-content-xl-start justify-content-md-center">
+        <div class="col-md-8 col-xl-12 mb-xl-0 mb-md-3">
+            <div class="card text-bg-dark rounded-0 p-2">
+                <div class="row g-0 rounded-0 align-items-center">
+                    <div class="col-md-4 col-sm-12 ps-lg-2">
+                        <img src="IMG/muestras/Than.jpg" class="img-fluid rounded-0 col-sm-12" alt="Colección Thannhauser" />
+                    </div>
+                    <div class="col-md-8 py-1">
+                        <div class="card-body">
+                            <h2 class="card-title">Colección Thannhauser</h2>
+                            <strong class="">Creado por el coleccionista y distribuidor de arte Justin K. Thannhauser
+                                (1892-1976)</strong>
+                            <h5 class="card-text pt-3">Horarios: 12:30 a.m. a 20:30 p.m.</h5>
+                            <p class="justificar">
+                                Se presentaron las obras del Guggenheim de artistas tan innovadores
+                                como Edgar Degas, Édouard Manet y Vincent van Gogh, y más de treinta ejemplos de
+                                Pablo Picasso.
+                                Esta importante donación proporciona un importante estudio del modernismo de
+                                finales del siglo
+                                XIX y principios del XX. Fue durante este período crítico, cuando los artistas
+                                buscaban liberar
+                                el arte de los géneros académicos e introducir temas contemporáneos, que la
+                                vanguardia investigó
+                                materiales y métodos novedosos, preparando el escenario para el desarrollo de
+                                nuevos estilos
+                                radicales.
+                            </p>
+                            <p class="justificar">
+                                Justin Thannhauser fue una figura vital en la difusión del arte moderno en
+                                Europa
+                                y Estados Unidos a principios del siglo XX. Desde la década de 1910, Justin
+                                Thannhauser trabajó
+                                junto a su padre, Heinrich Thannhauser (1859-1935), en su Moderne Galerie de
+                                Múnich y ayudó a
+                                crear un dinámico programa de exposiciones que incluía a los impresionistas y
+                                postimpresionistas
+                                franceses, además de artistas alemanes contemporáneos. La galería proporcionó un
+                                lugar crucial
+                                para el arte experimental, organizando la primera exposición colectiva Der Blaue
+                                Reiter (El
+                                jinete azul) en 1911-12 y una de las primeras exposiciones de Picasso en
+                                Alemania en 1913, entre
+                                otras.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+  <footer class="bg-dark py-5" style="height: 30%; width: 100%">
+    <div class="container">
+      <div class="row align-items-bottom d-flex justify-content-between">
+        <div class="d-flex col-lg-6 col-sm-8">
+          <a href="https://twitter.com/Guggenheim"><img src="IMG/svg/twitter.svg" alt="Equis" class="icono" /></a>
+          <a href="https://www.tiktok.com/@poncle_games?is_from_webapp=1&sender_device=pc"><img src="IMG/svg/tik-tok.svg" alt="Tic Toc" class="icono" /></a>
+          <a href="https://www.instagram.com/guggenheim/"><img src="IMG/svg/instagram.svg" alt="Instagram" class="icono" /></a>
+          <a href="https://www.facebook.com/guggenheimmuseum"><img src="IMG/svg/facebook.svg" alt="Facebook" class="icono" /></a>
+          <a href="https://discord.gg/v8wJddMb"><img src="IMG/svg/discord.svg" alt="Discord" class="icono" /></a>
+          <a href="mailto:boxoffice@guggenheim.org"><img src="IMG/svg/envelope.svg" alt="E-Mail" class="icono" /></a>
+        </div>
+        <div class="d-flex col-lg-4 col-sm-8 border-bottom mb-5 justify-content-between mt-auto">
+          <p class="text-light mb-auto">Conseguí tus entradas</p>
+          <a href="contacto.html" class="btn btn-light rounded-0">Comprar</a>
+        </div>
+      </div>
+     
+      <div class="d-flex">
+        <p class="text-light">
+          TM. Solomon R. Guggenheim Museum. Guggenheim Fundation.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Verlag';
+    src: url('fonts/Verlag-Bold.eot');
+    src: url('fonts/Verlag-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Verlag-Bold.woff2') format('woff2'),
+        url('fonts/Verlag-Bold.woff') format('woff'),
+        url('fonts/Verlag-Bold.ttf') format('truetype'),
+        url('fonts/Verlag-Bold.svg#Verlag-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Verlag';
+    src: url('fonts/Verlag-Light.eot');
+    src: url('fonts/Verlag-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Verlag-Light.woff2') format('woff2'),
+        url('fonts/Verlag-Light.woff') format('woff'),
+        url('fonts/Verlag-Light.ttf') format('truetype'),
+        url('fonts/Verlag-Light.svg#Verlag-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+*{ 
+    font-family: 'Verlag';
+}
+
+.navbar-brand{margin-bottom: 1%;}
+.navbar-nav{margin-right: 5%;}
+
+.justificar{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.icono {
+    width: 50px;
+    margin-top: 50%;
+    padding-right: 50%;
+    margin-bottom: 50%;
+}
+
+.hero{
+    background: url(IMG/NYC_-_Guggenheim_Museum.jpg) center 60% no-repeat;
+    height: 300px;
+    background-size: 100%; 
+}
+
+.bolden{
+    font-weight: bold;
+}
+
+.neonText {
+    color: #000000;
+    text-shadow:
+      0 0 12px #d1d1d1,
+      0 0 12px #d8d8d8;
+  }
